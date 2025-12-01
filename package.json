@@ -1,0 +1,24 @@
+{
+  "name": "advent-of-code-2025",
+  "version": "1.0.0",
+  "description": "Advent of Code 2025 solutions in JS and TS",
+  "main": "javascript/day01.js",
+  "type": "module",
+  "scripts": {
+    "start:js": "node javascript/day01.js",
+    "start:ts": "ts-node --esm typescript/day01.ts",
+    "build:ts": "tsc",
+    "run:ts": "node dist/day01.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
