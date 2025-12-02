@@ -7,3 +7,74 @@ go.sum
 dist/
 *.log
 .vscode/
+
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Kotlin ###
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+.idea/
+kotlin/gradlew
+kotlin/gradlew.bat
+kotlin/.gradle/*
+kotlin/.idea/*
+kotlin/gradle/*
+rust/target/flycheck0/stderr
+
+ Gradle
+kotlin/.gradle/
+**/kotlin/build/
+
+# Gradle cache and temporary files
+kotlin/.gradle/caches/
+kotlin/.gradle/daemon/
+kotlin/.gradle/native/
+kotlin/.gradle/wrapper/dists/
+
+# Keep wrapper properties but ignore downloaded distributions
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+.gradle/wrapper/dists/
+kotlin/.gradle/
+kotlin/build/
+kotlin/out/
