@@ -1,17 +1,26 @@
 plugins {
-kotlin("jvm") version "1.9.0"
+    kotlin("jvm") version "2.2.20"
+    application
 }
 
+group = "com.vayana"
+version = "1.0-SNAPSHOT"
 
-group = "aoc2025"
-version = "1.0"
-
+application {
+    mainClass.set("aoc2025.MainKt")
+}
 
 repositories {
-mavenCentral()
+    mavenCentral()
 }
 
-
 dependencies {
-implementation(kotlin("stdlib"))
+    testImplementation(kotlin("test"))
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
+kotlin {
+    jvmToolchain(21)
 }
