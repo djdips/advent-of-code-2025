@@ -78,3 +78,46 @@ kotlin/.gradle/wrapper/dists/
 kotlin/.gradle/
 kotlin/build/
 kotlin/out/
+
+# ========================
+# Kotlin / JVM
+# ========================
+kotlin/build/
+kotlin/out/
+kotlin/*.iml
+kotlin/.gradle/
+kotlin/.idea/
+kotlin/**/*.class
+
+# ========================
+# Rust
+# ========================
+rust/target/
+rust/**/*.rs.bk
+rust/*.exe
+rust/*.dll
+rust/*.so
+rust/*.dylib
+
+# ========================
+# General OS / editor
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ========================
+# Inputs (tracked)
+# ========================
+# all input files under `inputs/` will be committed
+# e.g., inputs/day01.txt, inputs/day02.txt
+!inputs/*.txt
+
+# ========================
+# Optional: ignore temp or log files
+# ========================
+*.log
+*.tmp
