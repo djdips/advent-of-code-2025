@@ -8,7 +8,9 @@
     "forceConsistentCasingInFileNames": true,
     "allowImportingTsExtensions": true,
     "noEmit": true,
-    "outDir": "dist"
+    "outDir": "./dist",
+    "rootDir": "./ts",
   },
-  "include": ["typescript/**/*"]
+  "include": ["ts/**/*"],
+  "exclude": ["dist"]
 }
